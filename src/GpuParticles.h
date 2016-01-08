@@ -85,7 +85,7 @@ namespace itg
         void save(const string& fileName);
         void load(const string& fileName);
         
-    private:
+    //private: //tweak
         void texturedQuad(float x, float y, float width, float height, float s, float t);
         void setUniforms(ofShader& shader);
         
