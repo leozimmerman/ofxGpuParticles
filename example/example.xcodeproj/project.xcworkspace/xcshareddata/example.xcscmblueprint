@@ -7,14 +7,14 @@
     "2DE9C8846D9375EAACFABA8963120E8E7719BAF5" : 0,
     "380F9DBF23796FB83AEF2E01E21B58DD8BF55486" : 0
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E3760146-323A-4117-8C85-B7C2ED9A2502",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "184EA593-AD33-431B-B567-5BA1D9913815",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "2DE9C8846D9375EAACFABA8963120E8E7719BAF5" : "..",
     "380F9DBF23796FB83AEF2E01E21B58DD8BF55486" : "ofxGpuParticles\/"
   },
-  "DVTSourceControlWorkspaceBlueprintNameKey" : "emptyExample",
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "example",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "example\/emptyExample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "example\/example.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/leozimmerman\/openFrameworks.git",

@@ -3,7 +3,7 @@
 #include "ofMain.h"
 #include "ofxGpuParticles.h"
 
-class ofApp : public ofBaseApp
+class testApp : public ofBaseApp
 {
 public:
     void setup();

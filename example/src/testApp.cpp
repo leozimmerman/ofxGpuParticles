@@ -1,7 +1,7 @@
-#include "ofApp.h"
+#include "testApp.h"
 
 //--------------------------------------------------------------
-void ofApp::setup()
+void testApp::setup()
 {
     ofBackground(0);
     ofSetFrameRate(60);
@@ -34,18 +34,18 @@ void ofApp::setup()
     particles.zeroDataTexture(ofxGpuParticles::VELOCITY);
     
     // listen for update event to set additonal update uniforms
-    ofAddListener(particles.updateEvent, this, &ofApp::onParticlesUpdate);
+    ofAddListener(particles.updateEvent, this, &testApp::onParticlesUpdate);
 }
 
 //--------------------------------------------------------------
-void ofApp::update()
+void testApp::update()
 {
     ofSetWindowTitle(ofToString(ofGetFrameRate(), 2));
     particles.update();
 }
 
 // set any update uniforms in this function
-void ofApp::onParticlesUpdate(ofShader& shader)
+void testApp::onParticlesUpdate(ofShader& shader)
 {
     ofVec3f mouse(ofGetMouseX() - .5f * ofGetWidth(), .5f * ofGetHeight() - ofGetMouseY() , 0.f);
     shader.setUniform3fv("mouse", mouse.getPtr());
@@ -54,7 +54,7 @@ void ofApp::onParticlesUpdate(ofShader& shader)
 }
 
 //--------------------------------------------------------------
-void ofApp::draw()
+void testApp::draw()
 {
     cam.begin();
     ofEnableBlendMode(OF_BLENDMODE_ADD);
@@ -64,46 +64,46 @@ void ofApp::draw()
 }
 
 //--------------------------------------------------------------
-void ofApp::keyPressed(int key){
+void testApp::keyPressed(int key){
 
 }
 
 //--------------------------------------------------------------
-void ofApp::keyReleased(int key){
+void testApp::keyReleased(int key){
 
 }
 
 //--------------------------------------------------------------
-void ofApp::mouseMoved(int x, int y ){
+void testApp::mouseMoved(int x, int y ){
 
 }
 
 //--------------------------------------------------------------
-void ofApp::mouseDragged(int x, int y, int button){
+void testApp::mouseDragged(int x, int y, int button){
 
 }
 
 //--------------------------------------------------------------
-void ofApp::mousePressed(int x, int y, int button){
+void testApp::mousePressed(int x, int y, int button){
 
 }
 
 //--------------------------------------------------------------
-void ofApp::mouseReleased(int x, int y, int button){
+void testApp::mouseReleased(int x, int y, int button){
 
 }
 
 //--------------------------------------------------------------
-void ofApp::windowResized(int w, int h){
+void testApp::windowResized(int w, int h){
 
 }
 
 //--------------------------------------------------------------
-void ofApp::gotMessage(ofMessage msg){
+void testApp::gotMessage(ofMessage msg){
 
 }
 
 //--------------------------------------------------------------
-void ofApp::dragEvent(ofDragInfo dragInfo){ 
+void testApp::dragEvent(ofDragInfo dragInfo){ 
 
 }
